@@ -31,7 +31,6 @@
             <a href="array_key_manipulatie.php">ga naar de pagina</a>
     </li>
 
-    <p>ik pas hier iets aan als test</p>
   
 
 </ol>
