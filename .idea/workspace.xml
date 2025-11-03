@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87edc712-9bb7-4e74-98c4-8da9891a0b06" name="Changes" comment="php opdrachten">
-      <change beforePath="$PROJECT_DIR$/../../BasisProgrammeren" beforeDir="false" afterPath="$PROJECT_DIR$/../../BasisProgrammeren" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FE-Basics opdrachten/front-end-periode-1-leerjaar-1-Cain-Brouwer" beforeDir="false" afterPath="$PROJECT_DIR$/../../FE-Basics opdrachten/front-end-periode-1-leerjaar-1-Cain-Brouwer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesweek5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,17 +19,38 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="PHP File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="Cain Brouwer@Admin:22 password" />
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Cain-Brouwer&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Cain-Brouwer/PHP-Basics.git&quot;,
+    &quot;accountId&quot;: &quot;db5d7641-1259-46b1-a7b4-9be42f24a652&quot;
+  }
+}</component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP-Basics" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="33pdaRSV9QNLvyhIgflDrAKwp9k" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,9 +58,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.php.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "PHP Script.functies.php.executor": "Run",
+    "PHP Script.index.php.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "credentialsType com.jetbrains.php.remote.interpreter.ui.PhpCreateRemoteSdkForm": "SSH Configuration",
     "credentialsType com.jetbrains.php.remote.interpreter.ui.PhpInplaceEditRemoteSdkForm": "SSH Configuration",
     "git-widget-placeholder": "main",
@@ -47,6 +77,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -59,6 +90,9 @@
       </set>
     </attachedChunks>
   </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="PHP" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="87edc712-9bb7-4e74-98c4-8da9891a0b06" name="Changes" comment="" />
@@ -67,6 +101,10 @@
       <option name="presentableId" value="Default" />
       <updated>1760018011003</updated>
       <workItem from="1760018012308" duration="1401000" />
+      <workItem from="1760044068061" duration="3382000" />
+      <workItem from="1760089578765" duration="59000" />
+      <workItem from="1760618165099" duration="3930000" />
+      <workItem from="1762093298754" duration="2113000" />
     </task>
     <task id="LOCAL-00001" summary="php opdrachten">
       <option name="closed" value="true" />
