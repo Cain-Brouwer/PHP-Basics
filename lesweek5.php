@@ -50,18 +50,6 @@
         echo "<p>Ik wens je een goede middag</p>";
     }
 
-#    if
-
-
-
-
-
-
-
-
-
-
-
 ?>
 
 </body>
