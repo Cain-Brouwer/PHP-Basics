@@ -14,8 +14,6 @@
     <input type="submit">
 </form>
 
-
-
 <?php
 
     $dagdeel_1 = $_GET["time"];
@@ -27,7 +25,18 @@
 
     $dagdeel_2 = 'middag';
 
-    echo "<p>$dagdeel_1</p>";
+    if ($dagdeel_1 > $tijd1 and $dagdeel_1 <= $tijd2) {
+        echo "<p>Ik wens je een hele goede nachtrust</p>";
+    }
+    elseif ($dagdeel_1 > $tijd2 and $dagdeel_1 <= $tijd3) {
+        echo "<p>Ik wens je een goede ochtend</p>";
+    }
+    elseif ($dagdeel_1 > $tijd3 and $dagdeel_1 < $tijd4) {
+        echo "<p>Ik wens je een goede middag</p>";
+    }
+    else {
+        echo "<p>Ik wens je een goede avond</p>";
+    }
 
     if ($getal == 5) {
         echo "<p>de waarde is gelijk aan 5</p>";
@@ -37,17 +46,6 @@
     }
     else {
         echo "<p>de waarde is groter dan 5 namelijk $getal</p>";
-    }
-
-
-    if ($dagdeel_1 > $tijd1 and $dagdeel_1 <= $tijd2) {
-        echo "<p>Ik wens je een hele goede nachtrust</p>";
-    }
-    elseif ($dagdeel_1 > $tijd2 and $dagdeel_1 <= $tijd3) {
-        echo "<p>Ik wens je een goede ochtend</p>";
-    }
-    elseif ($dagdeel_1 > $tijd3 and $dagdeel_1 < $tijd4) {
-        echo "<p>Ik wens je een goede middag</p>";
     }
 
 ?>
