@@ -4,7 +4,7 @@
     {
         public function __construct()
         {
-            $this->smartphoneModel = $this->model('Smartphone')
+            $this->smartphoneModel = $this->model('Smartphone');
         }
 
         public function index()
