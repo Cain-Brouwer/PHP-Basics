@@ -16,7 +16,6 @@
 
             $data = [
                 'title' => 'Overzicht Smartphones',
-                'result' => $result
             ];
 
             $this->view('smartphone/index', $data);
