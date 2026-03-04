@@ -24,7 +24,7 @@ class Core
         /**
          * Check of de controllerclass bestaat
          */
-        if (file_exists('../app/controllers/' . ucwords($url[0]) . '.php')) {
+if (file_exists(APPROOT . '/controllers/' . ucwords($url[0]) . '.php')) {
 
             /**
              * Stop de naam van de controller in $this->currentController
@@ -40,7 +40,7 @@ class Core
         /**
          * Sluit de controller class in en maak deze beschikbaar om een object van te maken
          */
-        require_once '../app/controllers/' . $this->currentController . '.php';
+require_once APPROOT . '/controllers/' . $this->currentController . '.php';
 
         /**
          * Maak een nieuw object van de controllerclass

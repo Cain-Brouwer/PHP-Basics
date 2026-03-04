@@ -11,7 +11,7 @@ define('DB_PASS', '');
 /**
  * De naam van de virtualhost
  */
-define('URLROOT', 'MVC-basics.local');
+define('URLROOT', '');
 
 /**
  * Het pad naar de folder app
