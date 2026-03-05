@@ -12,10 +12,9 @@
 
         $result = $this->smartphoneModel->getAllSmartphones();
 
-        var_dump($result);
-
             $data = [
                 'title' => 'Overzicht Smartphones',
+                'result' => $result,
             ];
 
             $this->view('smartphone/index', $data);
