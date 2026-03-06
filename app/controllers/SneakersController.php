@@ -1,6 +1,6 @@
 <?php
 
-class Sneakers extends BaseController
+class SneakersController extends BaseController
 {
     public function __construct()
     {
