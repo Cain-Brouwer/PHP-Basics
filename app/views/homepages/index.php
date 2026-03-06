@@ -1,6 +1,5 @@
 <?php require_once APPROOT . '/views/includes/header.php'; ?>
 
-<!-- Voor het centreren van de container gebruiken we het boorstrap grid -->
 <div class="container">
     <div class="row mt-3">
 
@@ -12,10 +11,7 @@
 
             <a href="<?= URLROOT; ?>/SmartphoneController/index">Overzicht smartphones</a> |
 
-            <a href="<?= URLROOT; ?>/sneakers/index">Mooiste Sneakers</a> |
-            
-            <a href="<?= URLROOT; ?>/horloges/index">Duurste Horloges</a> |
-            <a href="<?= URLROOT; ?>/zangeressen/index">Rijkste zangeressen</a>
+            <a href="<?= URLROOT; ?>/SneakersController/index">Mooiste Sneakers</a>
 
         </div>
         
