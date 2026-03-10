@@ -5,6 +5,14 @@
         <div class="col-10">
             <h3><?php echo $data['title']; ?></h3>
 
+        <div class="row mt-3 d-<?= $data['display']; ?> justify-content-center">
+            <div class="col-10 text-begin text-primary">
+                <div class="alert alert-success" role="alert">
+                    <?= $data['message']; ?>
+                </div>
+            </div>
+        </div>
+
             <table class="table table-striped">
                 <thead>
                     <tr>
