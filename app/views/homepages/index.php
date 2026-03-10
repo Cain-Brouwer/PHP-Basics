@@ -11,7 +11,9 @@
 
             <a href="<?= URLROOT; ?>/SmartphoneController/index">Overzicht smartphones</a> |
 
-            <a href="<?= URLROOT; ?>/SneakersController/index">Mooiste Sneakers</a>
+            <a href="<?= URLROOT; ?>/SneakersController/index">Mooiste Sneakers</a> |
+
+            <a href="<?= URLROOT; ?>/HorlogeController/index">Mooie Horloges</a>
 
         </div>
         

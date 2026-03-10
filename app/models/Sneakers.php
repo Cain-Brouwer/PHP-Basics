@@ -14,7 +14,7 @@ class Sneakers
         $sql = 'SELECT  SNK.Merk
                         ,SNK.Model
                         ,SNK.Type
-                        ,CONCAT("€ ", FORMAT(SNK.Prijs, 2, "nl_NL")) as Prijs
+                        ,CONCAT("€ ", FORMAT(SNK.Prijs, 2, "de_DE")) as Prijs
                         ,SNK.Materiaal
                         ,CONCAT(SNK.Gewicht, " g") as Gewicht
                         ,DATE_FORMAT(SNK.Releasedatum, "%d/%m/%Y") as Releasedatum
@@ -28,5 +28,18 @@ class Sneakers
         $this->db->query($sql);
 
         return $this->db->resultSet();
+    }
+
+        public function delete($Id)
+    {
+        $sql = "DELETE
+                FROM Sneakers
+                WHERE Id = :Id";
+
+        $this->db->query($sql);
+
+        $this->db->bind(':Id', $Id, PDO::PARAM_INT);
+
+        return $this->db->execute();
     }
 }
