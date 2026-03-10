@@ -11,7 +11,8 @@ class Sneakers
 
     public function getAllSneakers()
     {
-        $sql = 'SELECT  SNK.Merk
+        $sql = 'SELECT  SNK.Id
+                        ,SNK.Merk
                         ,SNK.Model
                         ,SNK.Type
                         ,CONCAT("€ ", FORMAT(SNK.Prijs, 2, "de_DE")) as Prijs

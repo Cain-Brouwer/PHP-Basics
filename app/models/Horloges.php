@@ -11,7 +11,8 @@ class Horloges
 
     public function getAllHorloges()
     {
-        $sql = 'SELECT  HOR.Merk
+        $sql = 'SELECT  HOR.Id
+                        ,HOR.Merk
                         ,HOR.Model
                         ,HOR.Type
                         ,CONCAT("€ ", FORMAT(HOR.Prijs, 2, "de_DE")) as Prijs
