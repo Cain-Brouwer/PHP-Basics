@@ -19,6 +19,15 @@
 
             $this->view('smartphone/index', $data);
         }
+
+        public function delete($Id);
+        {
+            $result = $this->smartphoneModel->delete($Id)
+
+            header('Refresh:3 ; url=' . URLROOT . '/smartphoneController/index')
+
+            $this->index();
+        }
     }
 
 ?>
