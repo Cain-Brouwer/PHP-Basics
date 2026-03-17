@@ -24,7 +24,7 @@ class HorlogeController extends BaseController
         public function create()
     {
         $data = [
-            'title' => 'Nieuwe sneakers toevoegen',
+            'title' => 'Nieuw horloge toevoegen',
             'display' => 'none',
             'message' => ''
         ];
@@ -38,7 +38,7 @@ class HorlogeController extends BaseController
                 empty($_POST['waterdichtheid']) ||
                 empty($_POST['releasedatum']) ||
                 empty($_POST['type']) || 
-                empty($_POST['uniek_kenmerk'])){
+                empty($_POST['uniekkenmerk'])){
 
                 $data['display'] = 'flex';
                 $data['message'] = 'Vul alle velden in.';

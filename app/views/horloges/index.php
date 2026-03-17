@@ -15,7 +15,7 @@
 
                 <div class="row mt-3 d-flex justify-content-center">
             <div class="col-10 text-begin text-danger">
-                <a href="<?= URLROOT; ?>/HorlogesController/create"
+                <a href="<?= URLROOT; ?>/HorlogeController/create"
                 class="btn btn-warning"
                 role="button">Nieuw horloge
                 </a>

@@ -33,17 +33,27 @@ class Horloges
         return $this->db->resultSet();
     }
 
-    public function createOld($data)
+    public function create ($data)
 {
-    $sql = "INSERT INTO Horloges ( Merk}
+    $sql = "INSERT INTO Horloges ( merk
+                                    ,Model
+                                    ,Prijs
+                                    ,Materiaal
+                                    ,Waterdichtheid
+                                    ,UniekKenmerk
+                                    ,Gewicht
+                                    ,Releasedatum
+                                    ,type
+                                    )
             VALUES (:merk,
                     :model,
                     :prijs,
                     :materiaal,
                     :waterdichtheid,
-                    :uniek_kenmerk,
+                    :uniekkenmerk,
                     :gewicht,
-                    :releasedatum)";
+                    :releasedatum,
+                    :type)";
 
     $this->db->query($sql);
     $this->db->bind(':merk', $data['merk'], PDO::PARAM_STR);
@@ -51,7 +61,7 @@ class Horloges
     $this->db->bind(':prijs', $data['prijs'], PDO::PARAM_INT);
     $this->db->bind(':materiaal', $data['materiaal'], PDO::PARAM_STR);
     $this->db->bind(':waterdichtheid', $data['waterdichtheid'], PDO::PARAM_STR);
-    $this->db->bind(':uniek_kenmerk', $data['uniek_kenmerk'], PDO::PARAM_STR);
+    $this->db->bind(':uniekkenmerk', $data['uniekkenmerk'], PDO::PARAM_STR);
     $this->db->bind(':gewicht', $data['gewicht'], PDO::PARAM_INT);
     $this->db->bind(':releasedatum', $data['releasedatum'], PDO::PARAM_STR);
     $this->db->bind(':type', $data['type'], PDO::PARAM_STR);
