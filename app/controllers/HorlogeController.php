@@ -30,4 +30,16 @@ class HorlogeController extends BaseController
 
             $this->index();
         }
+
+            public function create()
+    {
+        $data = [
+            'title' => 'Nieuw horloge toevoegen',
+            'display' => 'none',
+            'message' => ''
+        ];
+
+        $this->view('horloge/create', $data);
+    }
+    
     }

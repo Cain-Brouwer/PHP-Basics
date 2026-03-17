@@ -30,4 +30,15 @@ class SneakersController extends BaseController
 
             $this->index();
         }
+
+            public function create()
+    {
+        $data = [
+            'title' => 'Nieuwe sneakers toevoegen',
+            'display' => 'none',
+            'message' => ''
+        ];
+
+        $this->view('sneaker/create', $data);
+    }
 }

@@ -13,6 +13,15 @@
             </div>
         </div>
 
+                <div class="row mt-3 d-flex justify-content-center">
+            <div class="col-10 text-begin text-danger">
+                <a href="<?= URLROOT; ?>/SmartphoneController/create"
+                class="btn btn-warning"
+                role="button">Nieuw horloge
+                </a>
+            </div>
+        </div>
+
             <table class="table table-striped">
                 <thead>
                     <tr>

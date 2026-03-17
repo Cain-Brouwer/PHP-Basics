@@ -31,6 +31,20 @@
 
             $this->index();
         }
+    
+
+    public function create()
+    {
+        $data = [
+            'title' => 'Nieuwe smartphone toevoegen',
+            'display' => 'none',
+            'message' => ''
+        ];
+
+        $this->view('smartphone/create', $data);
+    }
+
+
     }
 
 ?>
