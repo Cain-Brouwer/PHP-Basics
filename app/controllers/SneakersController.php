@@ -39,6 +39,13 @@ class SneakersController extends BaseController
             'message' => ''
         ];
 
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            if (empty($_POST['merk']) ||
+            empty($_POST['merk']) ||
+            empty($_POST['merk']) || 
+            )
+        }
+
         $this->view('sneaker/create', $data);
     }
 }
