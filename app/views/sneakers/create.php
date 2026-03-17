@@ -31,30 +31,25 @@
                     <input name="prijs" type="number" min="0" max="9999" step="0.01" class="form-control" id="prijs" value="<?= $_POST['prijs'] ?? ''; ?>" required>
                 </div>
                 <div class="mb-3">
-                    <label for="geheugen" class="form-label">Geheugen (GB)</label>
-                    <input name="geheugen" type="number" min="0" max="4000" class="form-control" id="geheugen" value="<?= $_POST['geheugen'] ?? ''; ?>" required>
+                    <label for="materiaal" class="form-label">Materiaal</label>
+                    <input name="materiaal" type="text" class="form-control" id="materiaal" value="<?= $_POST['materiaal'] ?? ''; ?>" required>
                 </div>
                 <div class="mb-3">
-                    <label for="besturingssysteem" class="form-label">Besturingssysteem</label>
-                    <input name="besturingssysteem" type="text" class="form-control" id="besturingssysteem" value="<?= $_POST['besturingssysteem'] ?? ''; ?>" required>
+                    <label for="gewicht" class="form-label">Gewicht</label>
+                    <input name="gewicht" type="text" class="form-control" id="gewicht" value="<?= $_POST['gewicht'] ?? ''; ?>" required>
                 </div>
                 <div class="mb-3">
-                    <label for="schermgrootte" class="form-label">Schermgrootte</label>
-                    <input name="schermgrootte" type="number" min="0" max="10" step="0.01" class="form-control" id="schermgrootte" value="<?= $_POST['schermgrootte'] ?? ''; ?>" required>
-                </div>
-                <div class="mb-3">
-                    <label for="releasedatum" class="form-label">Releasedatum</label>
+                    <label for="releasedatum" class="form-label">release datum</label>
                     <input name="releasedatum" type="date" class="form-control" id="releasedatum" value="<?= $_POST['releasedatum'] ?? ''; ?>" required>
                 </div>
                 <div class="mb-3">
-                    <label for="megapixels" class="form-label">Megapixels</label>
-                    <input name="megapixels" type="number" min="0" max="10000" class="form-control" id="megapixels" value="<?= $_POST['megapixels'] ?? ''; ?>" required>
+                    <label for="type" class="form-label">type</label>
+                    <input name="type" type="text" class="form-control" id="type" value="<?= $_POST['type'] ?? ''; ?>" required>
                 </div>
                 <button type="submit" class="btn btn-primary">Verstuur</button>
             </form>
 
             <a href="<?= URLROOT; ?>/homepages/index"><i class="bi bi-arrow-left"></i></a>
-        </div>
     </div>
 </div>
 

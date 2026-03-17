@@ -2,6 +2,7 @@
 
 class SneakersController extends BaseController
 {
+    
     public function __construct()
     {
         $this->sneakersModel = $this->model('Sneakers');
@@ -44,7 +45,7 @@ class SneakersController extends BaseController
                 empty($_POST['prijs']) ||
                 empty($_POST['materiaal']) ||
                 empty($_POST['gewicht']) ||
-                empty($_POST['release datum']) ||
+                empty($_POST['releasedatum']) ||
                 empty($_POST['type'])) {
 
                 $data['display'] = 'flex';
@@ -61,6 +62,6 @@ class SneakersController extends BaseController
             }
         }
 
-        $this->view('sneaker/create', $data);
+        $this->view('sneakers/create', $data);
     }
 }   
