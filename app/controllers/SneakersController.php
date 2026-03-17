@@ -21,17 +21,16 @@ class SneakersController extends BaseController
         $this->view('sneakers/index', $data);
     }
 
-                public function delete($Id)
-        {
+    public function delete($Id)
+    {
+        $result = $this->sneakersModel->delete($Id);
 
-            $result = $this->sneakersModel->delete($Id);
+        header('Refresh:3 ; url=' . URLROOT . '/SneakersController/index');
 
-            header('Refresh:3 ; url=' . URLROOT . '/SneakersController/index');
+        $this->index();
+    }
 
-            $this->index();
-        }
-
-            public function create()
+    public function create()
     {
         $data = [
             'title' => 'Nieuwe sneakers toevoegen',
@@ -41,9 +40,10 @@ class SneakersController extends BaseController
 
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             if (empty($_POST['merk']) ||
-            empty($_POST['merk']) ||
-            empty($_POST['merk']) || 
-            )
+                empty($_POST['model']) ||
+                empty($_POST['prijs'])) {
+
+            }
         }
 
         $this->view('sneaker/create', $data);
