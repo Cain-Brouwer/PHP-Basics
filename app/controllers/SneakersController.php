@@ -48,4 +48,4 @@ class SneakersController extends BaseController
 
         $this->view('sneaker/create', $data);
     }
-}
+}   
