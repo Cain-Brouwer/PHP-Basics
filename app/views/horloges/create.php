@@ -17,7 +17,7 @@
 
     <div class="row mt-3 d-flex justify-content-center">
         <div class="col-6">
-            <form action="<?= URLROOT; ?>/HorlogesController/create" method="post">
+            <form action="<?= URLROOT; ?>/HorlogeController/create" method="post">
                 <div class="mb-3">
                     <label for="merk" class="form-label">Merk</label>
                     <input name="merk" type="text" class="form-control" id="merk" value="<?= $_POST['merk'] ?? ''; ?>">

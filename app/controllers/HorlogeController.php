@@ -50,7 +50,7 @@ class HorlogeController extends BaseController
 
                 $this->HorlogesModel->create($_POST);
 
-                header('Refresh:3 ; url=' . URLROOT . '/HorlogesController/index');
+                header('Refresh:3 ; url=' . URLROOT . '/HorlogeController/index');
             }
         }
 
@@ -62,7 +62,7 @@ class HorlogeController extends BaseController
     
                 $result = $this->HorlogesModel->delete($Id);
     
-                header('Refresh:3 ; url=' . URLROOT . '/HorlogesController/index');
+                header('Refresh:3 ; url=' . URLROOT . '/HorlogeController/index');
     
                 $this->index();
             }
