@@ -67,7 +67,42 @@
         $this->view('smartphone/create', $data);
     }
 
+    public function update($Id)
+    {
+        $data = [
+            'title' => 'Smartphone aanpassen',
+            'display' => 'none',
+            'message' => '',
+            'result' => $this->smartphoneModel->getSmartphoneById($Id)
+        ];
+
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            if (empty($_POST['merk']) ||
+                empty($_POST['model']) ||
+                empty($_POST['prijs']) ||
+                empty($_POST['geheugen']) ||
+                empty($_POST['besturingssysteem']) ||
+                empty($_POST['schermgrootte']) ||
+                empty($_POST['releasedatum']) ||
+                empty($_POST['megapixels'])) {
+
+                $data['display'] = 'flex';
+                $data['message'] = 'Vul alle velden in.';
+
+            }
+            else {
+                $data['display'] = 'flex';
+                $data['message'] = 'de gegevens zijn aangepast.';
+
+                $this->smartphoneModel->update($Id, $_POST);
+
+                header('Refresh:3 ; url=' . URLROOT . '/SmartphoneController/index');
+            }
+        }
+
+        $this->view('smartphone/update', $data);
+
 
     }
 
-?>
+    }

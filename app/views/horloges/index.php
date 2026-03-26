@@ -35,6 +35,7 @@
                         <th>Gewicht</th>
                         <th>Releasedatum</th>
                         <th>Verwijder</th>
+                        <th>Wijzig</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -54,6 +55,10 @@
                                     <i class="bi bi-trash3-fill text-danger"></i>
                                 </a>
                             </td>
+                            <td class="text-center">
+                                <a href="<?= URLROOT; ?>/HorlogeController/update/<?= $horloge->Id;?>">
+                                    <i class="bi bi-pencil-square"></i>
+                                </a>
                         </tr>
                     <?php endforeach; ?>
                 </tbody>
