@@ -66,5 +66,42 @@ class HorlogeController extends BaseController
     
                 $this->index();
             }
+
+            public function update($Id)
+            {
+                $data = [
+                    'title' => 'Horloge aanpassen',
+                    'display' => 'none',
+                    'message' => '',
+                    'result' => $this->HorlogesModel->getHorlogeById($Id)
+                ];
+    
+                if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                    if (empty($_POST['merk']) ||
+                        empty($_POST['model']) ||
+                        empty($_POST['prijs']) ||
+                        empty($_POST['materiaal']) ||
+                        empty($_POST['gewicht']) ||
+                        empty($_POST['waterdichtheid']) ||
+                        empty($_POST['releasedatum']) ||
+                        empty($_POST['type']) || 
+                        empty($_POST['uniekkenmerk'])){
+    
+                        $data['display'] = 'flex';
+                        $data['message'] = 'Vul alle velden in.';
+    
+                    }
+                    else {
+                        $data['display'] = 'flex';
+                        $data['message'] = 'de gegevens zijn opgeslagen.';
+    
+                        $this->HorlogesModel->update($Id, $_POST);
+    
+                        header('Refresh:3 ; url=' . URLROOT . '/HorlogeController/index');
+                    }
+                }
+    
+                $this->view('horloges/update', $data);
         
     }
+}
