@@ -10,6 +10,7 @@ class SneakersController extends BaseController
 
     public function index($display='none', $message='')
     {
+        $message = str_replace('_', ' ', $message);
         $result = $this->sneakersModel->getAllSneakers();
 
         $data = [
@@ -65,16 +66,14 @@ class SneakersController extends BaseController
             $this->view('sneakers/create', $data);
 
     }
-     
-            
-
+    
         public function update($Id)
         {
             $data = [
                 'title' => 'Sneakers aanpassen',
                 'display' => 'none',
                 'message' => '',
-                'result' => $this->sneakersModel->getSneakersById($Id)
+                'sneakers' => $this->sneakersModel->getSneakerById($Id)
             ];
 
             if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -96,7 +95,8 @@ class SneakersController extends BaseController
 
                     $this->sneakersModel->update($Id, $_POST);
 
-                    header('Refresh:3 ; url=' . URLROOT . '/SneakersController/index');
+                    header('Location: ' . URLROOT . '/SneakersController/index/flex/gegevens_opgeslagen');
+                    exit();
                 }
             }
 

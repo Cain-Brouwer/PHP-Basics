@@ -79,4 +79,55 @@ class Smartphone
 
         return $this->db->execute();
     }
+
+    public function getSmartphoneById($Id)
+    {
+        $sql = "SELECT  SMPS.Id
+                        ,SMPS.Merk
+                        ,SMPS.Model
+                        ,SMPS.Prijs
+                        ,SMPS.Geheugen
+                        ,SMPS.Besturingssysteem
+                        ,SMPS.Schermgrootte
+                        ,DATE_FORMAT(SMPS.Releasedatum, '%Y-%m-%d') as Releasedatum
+                        ,SMPS.MegaPixels
+
+                FROM    Smartphones as SMPS
+
+                WHERE SMPS.Id = :Id";
+
+        $this->db->query($sql);
+
+        $this->db->bind(':Id', $Id, PDO::PARAM_INT);
+
+        return $this->db->single();
+    }
+
+    public function update($Id, $data)
+    {
+        $sql = "UPDATE Smartphones
+                SET Merk = :merk,
+                    Model = :model,
+                    Prijs = :prijs,
+                    Geheugen = :geheugen,
+                    Besturingssysteem = :besturingssysteem,
+                    Schermgrootte = :schermgrootte,
+                    Releasedatum = :releasedatum,
+                    MegaPixels = :megapixels
+                WHERE Id = :Id";
+
+        $this->db->query($sql);
+
+        $this->db->bind(':Id', $Id, PDO::PARAM_INT);
+        $this->db->bind(':merk', $data['merk'], PDO::PARAM_STR);
+        $this->db->bind(':model', $data['model'], PDO::PARAM_STR);
+        $this->db->bind(':prijs', $data['prijs'], PDO::PARAM_INT);
+        $this->db->bind(':geheugen', $data['geheugen'], PDO::PARAM_INT);
+        $this->db->bind(':besturingssysteem', $data['besturingssysteem'], PDO::PARAM_STR);
+        $this->db->bind(':schermgrootte', $data['schermgrootte'], PDO::PARAM_INT);
+        $this->db->bind(':releasedatum', $data['releasedatum'], PDO::PARAM_STR);
+        $this->db->bind(':megapixels', $data['megapixels'], PDO::PARAM_INT);
+
+        return $this->db->execute();
+    }
 }

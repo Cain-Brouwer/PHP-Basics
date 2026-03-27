@@ -9,6 +9,7 @@ class HorlogeController extends BaseController
 
     public function index($display='none', $message='')
     {
+        $message = str_replace('_', ' ', $message);
         $result = $this->HorlogesModel->getAllHorloges();
 
         $data = [
@@ -73,7 +74,7 @@ class HorlogeController extends BaseController
                     'title' => 'Horloge aanpassen',
                     'display' => 'none',
                     'message' => '',
-                    'result' => $this->HorlogesModel->getHorlogeById($Id)
+                    'horloge' => $this->HorlogesModel->getHorlogeById($Id)
                 ];
     
                 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -94,10 +95,11 @@ class HorlogeController extends BaseController
                     else {
                         $data['display'] = 'flex';
                         $data['message'] = 'de gegevens zijn opgeslagen.';
-    
+
                         $this->HorlogesModel->update($Id, $_POST);
-    
-                        header('Refresh:3 ; url=' . URLROOT . '/HorlogeController/index');
+
+                        header('Location: ' . URLROOT . '/HorlogeController/index/flex/gegevens_opgeslagen');
+                        exit();
                     }
                 }
     

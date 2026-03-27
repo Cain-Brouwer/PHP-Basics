@@ -9,7 +9,7 @@
 
         public function index($display='none', $message='')
         {
-
+        $message = str_replace('_', ' ', $message);
         $result = $this->smartphoneModel->getAllSmartphones();
 
             $data = [
@@ -73,7 +73,7 @@
             'title' => 'Smartphone aanpassen',
             'display' => 'none',
             'message' => '',
-            'result' => $this->smartphoneModel->getSmartphoneById($Id)
+            'smartphone' => $this->smartphoneModel->getSmartphoneById($Id)
         ];
 
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -96,7 +96,8 @@
 
                 $this->smartphoneModel->update($Id, $_POST);
 
-                header('Refresh:3 ; url=' . URLROOT . '/SmartphoneController/index');
+                header('Location: ' . URLROOT . '/SmartphoneController/index/flex/gegevens_aangepast');
+                exit();
             }
         }
 
