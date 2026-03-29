@@ -22,12 +22,13 @@ class HorlogeController extends BaseController
         $this->view('horloges/index', $data);
     }
 
-        public function create()
+    public function create()
     {
         $data = [
             'title' => 'Nieuw horloge toevoegen',
             'display' => 'none',
-            'message' => ''
+            'message' => '',
+            'alert_type' => 'danger',
         ];
 
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -39,15 +40,17 @@ class HorlogeController extends BaseController
                 empty($_POST['waterdichtheid']) ||
                 empty($_POST['releasedatum']) ||
                 empty($_POST['type']) || 
-                empty($_POST['uniekkenmerk'])){
+                empty($_POST['uniekkenmerk'])) {
 
                 $data['display'] = 'flex';
                 $data['message'] = 'Vul alle velden in.';
+                $data['alert_type'] = 'danger';
 
             }
             else {
                 $data['display'] = 'flex';
                 $data['message'] = 'de gegevens zijn opgeslagen.';
+                $data['alert_type'] = 'success';
 
                 $this->HorlogesModel->create($_POST);
 
@@ -58,52 +61,52 @@ class HorlogeController extends BaseController
         $this->view('horloges/create', $data);
     }
 
-                public function delete($Id)
-            {
-    
-                $result = $this->HorlogesModel->delete($Id);
-    
-                header('Refresh:3 ; url=' . URLROOT . '/HorlogeController/index');
-    
-                $this->index();
+    public function delete($Id)
+    {
+        $result = $this->HorlogesModel->delete($Id);
+
+        header('Refresh:3 ; url=' . URLROOT . '/HorlogeController/index');
+
+        $this->index();
+    }
+
+    public function update($Id)
+    {
+        $data = [
+            'title' => 'Horloge aanpassen',
+            'display' => 'none',
+            'message' => '',
+            'alert_type' => 'danger',
+            'horloge' => $this->HorlogesModel->getHorlogeById($Id),
+            'redirect' => false,
+        ];
+
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            if (empty($_POST['merk']) ||
+                empty($_POST['model']) ||
+                empty($_POST['prijs']) ||
+                empty($_POST['materiaal']) ||
+                empty($_POST['gewicht']) ||
+                empty($_POST['waterdichtheid']) ||
+                empty($_POST['releasedatum']) ||
+                empty($_POST['type']) || 
+                empty($_POST['uniekkenmerk'])) {
+
+                $data['display'] = 'flex';
+                $data['message'] = 'Vul alle velden in.';
+                $data['alert_type'] = 'danger';
+
             }
+            else {
+                $data['display'] = 'flex';
+                $data['message'] = 'Het record is succesvol opgeslagen.';
+                $data['alert_type'] = 'success';
+                $data['redirect'] = true;
 
-            public function update($Id)
-            {
-                $data = [
-                    'title' => 'Horloge aanpassen',
-                    'display' => 'none',
-                    'message' => '',
-                    'horloge' => $this->HorlogesModel->getHorlogeById($Id)
-                ];
-    
-                if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                    if (empty($_POST['merk']) ||
-                        empty($_POST['model']) ||
-                        empty($_POST['prijs']) ||
-                        empty($_POST['materiaal']) ||
-                        empty($_POST['gewicht']) ||
-                        empty($_POST['waterdichtheid']) ||
-                        empty($_POST['releasedatum']) ||
-                        empty($_POST['type']) || 
-                        empty($_POST['uniekkenmerk'])){
-    
-                        $data['display'] = 'flex';
-                        $data['message'] = 'Vul alle velden in.';
-    
-                    }
-                    else {
-                        $data['display'] = 'flex';
-                        $data['message'] = 'de gegevens zijn opgeslagen.';
+                $this->HorlogesModel->update($Id, $_POST);
+            }
+        }
 
-                        $this->HorlogesModel->update($Id, $_POST);
-
-                        header('Location: ' . URLROOT . '/HorlogeController/index/flex/gegevens_opgeslagen');
-                        exit();
-                    }
-                }
-    
-                $this->view('horloges/update', $data);
-        
+        $this->view('horloges/update', $data);
     }
 }

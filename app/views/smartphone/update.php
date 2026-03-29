@@ -9,7 +9,7 @@
 
     <div class="row mt-3 d-<?= $data['display']; ?> justify-content-center">
         <div class="col-6 text-begin text-primary">
-            <div class="alert alert-success" role="alert">
+            <div class="alert alert-<?= $data['alert_type']; ?>" role="alert">
                 <?= $data['message']; ?>
             </div>
         </div>
@@ -57,5 +57,13 @@
         </div>
     </div>
 </div>
+
+<?php if ($data['redirect']): ?>
+<script>
+    setTimeout(function () {
+        window.location.href = '<?= URLROOT; ?>/SmartphoneController/index';
+    }, 3000);
+</script>
+<?php endif; ?>
 
 <?php require APPROOT . '/views/includes/footer.php'; ?>

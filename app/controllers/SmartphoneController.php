@@ -37,7 +37,8 @@
         $data = [
             'title' => 'Nieuwe smartphone toevoegen',
             'display' => 'none',
-            'message' => ''
+            'message' => '',
+            'alert_type' => 'danger',
         ];
 
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -52,11 +53,13 @@
 
                 $data['display'] = 'flex';
                 $data['message'] = 'Vul alle velden in.';
+                $data['alert_type'] = 'danger';
 
             }
             else {
                 $data['display'] = 'flex';
                 $data['message'] = 'de gegevens zijn opgeslagen.';
+                $data['alert_type'] = 'success';
 
                 $this->smartphoneModel->create($_POST);
 
@@ -73,7 +76,9 @@
             'title' => 'Smartphone aanpassen',
             'display' => 'none',
             'message' => '',
-            'smartphone' => $this->smartphoneModel->getSmartphoneById($Id)
+            'alert_type' => 'danger',
+            'smartphone' => $this->smartphoneModel->getSmartphoneById($Id),
+            'redirect' => false,
         ];
 
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -88,22 +93,20 @@
 
                 $data['display'] = 'flex';
                 $data['message'] = 'Vul alle velden in.';
+                $data['alert_type'] = 'danger';
 
             }
             else {
                 $data['display'] = 'flex';
-                $data['message'] = 'de gegevens zijn aangepast.';
+                $data['message'] = 'Het record is succesvol opgeslagen.';
+                $data['alert_type'] = 'success';
+                $data['redirect'] = true;
 
                 $this->smartphoneModel->update($Id, $_POST);
-
-                header('Location: ' . URLROOT . '/SmartphoneController/index/flex/gegevens_aangepast');
-                exit();
             }
         }
 
         $this->view('smartphone/update', $data);
-
-
     }
 
     }

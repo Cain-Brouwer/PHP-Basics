@@ -9,7 +9,7 @@
 
     <div class="row mt-3 d-<?= $data['display']; ?> justify-content-center">
         <div class="col-6 text-begin text-primary">
-            <div class="alert alert-success" role="alert">
+            <div class="alert alert-<?= $data['alert_type']; ?>" role="alert">
                 <?= $data['message']; ?>
             </div>
         </div>
@@ -31,7 +31,7 @@
                     <input name="prijs" type="number" min="0" max="9999" step="0.01" class="form-control" id="prijs" value="<?= $_POST['prijs'] ?? ''; ?>" required>
                 </div>
                 <div class="mb-3">
-                    <label for="gewicht" class="form-label">Materiaal</label>
+                    <label for="materiaal" class="form-label">Materiaal</label>
                     <input name="materiaal" type="text" class="form-control" id="materiaal" value="<?= $_POST['materiaal'] ?? ''; ?>" required>
                 </div>
                 <div class="mb-3">

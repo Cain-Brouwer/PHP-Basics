@@ -9,7 +9,7 @@
 
     <div class="row mt-3 d-<?= $data['display']; ?> justify-content-center">
         <div class="col-6 text-begin text-primary">
-            <div class="alert alert-success" role="alert">
+            <div class="alert alert-<?= $data['alert_type']; ?>" role="alert">
                 <?= $data['message']; ?>
             </div>
         </div>
