@@ -1,0 +1,65 @@
+/* MVC Basics - Sticky Footer */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 70px;
+}
+
+.wrapper {
+    flex: 1;
+}
+
+footer {
+    flex-shrink: 0;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px 0;
+    border-top: 1px solid #444;
+}
+
+/* Navbar styling */
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-brand i {
+    font-size: 1.5rem;
+}
+
+/* Table styling */
+.table th {
+    background-color: #f8f9fa;
+}
+
+/* Form styling */
+.form-label {
+    font-weight: 500;
+}
+
+/* Button spacing */
+.btn {
+    margin-right: 5px;
+}
+
+/* Alert styling */
+.alert {
+    margin-bottom: 0;
+}
+
+/* Link styling in homepage */
+.homepage-links a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.homepage-links a:hover {
+    text-decoration: underline;
+}
