@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="56976050-4aa7-4b7e-9049-b025a5a877f5" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerConfigs">
+    <option name="configs">
+      <option value="$PROJECT_DIR$/Laravel_Project/composer.json" />
+    </option>
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/Breezedemo/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="280" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:Cain-Brouwer/PHP-Basics.git",
+    "accountId": "844d06c1-e541-48e9-9a4c-4d6335f21312"
+  }
+}]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="2.317941736394743" />
+      <entry key="MS500" value="5.509156721566931" />
+      <entry key="S2" value="11.576591364526188" />
+      <entry key="S5" value="18.953156904681776" />
+      <entry key="S10" value="25.966818432023423" />
+      <entry key="S30" value="34.59156005053292" />
+      <entry key="S60" value="37.78069268305554" />
+      <entry key="M2" value="40.73983237726964" />
+      <entry key="M5" value="49.706893557619374" />
+      <entry key="M10" value="66.20898435586717" />
+      <entry key="M15" value="80.01296322708673" />
+      <entry key="M30" value="106.54418830929231" />
+      <entry key="H1" value="137.64422994567695" />
+      <entry key="H2" value="182.70206344065502" />
+      <entry key="H4" value="234.8619892884102" />
+      <entry key="D1" value="316.00264284800977" />
+      <entry key="W1" value="335.53794483134664" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="2.2110301386314006" />
+      <entry key="MS500" value="5.457715758836557" />
+      <entry key="S2" value="11.547475833704226" />
+      <entry key="S5" value="18.931252463080337" />
+      <entry key="S10" value="25.95025949158598" />
+      <entry key="S30" value="34.583610250579085" />
+      <entry key="S60" value="37.77620270653608" />
+      <entry key="M2" value="40.7372116716437" />
+      <entry key="M5" value="49.70527158361451" />
+      <entry key="M10" value="66.20748524757822" />
+      <entry key="M15" value="80.01147637441167" />
+      <entry key="M30" value="106.5429008201307" />
+      <entry key="H1" value="137.64325102834138" />
+      <entry key="H2" value="182.70132756405366" />
+      <entry key="H4" value="234.86147748009347" />
+      <entry key="D1" value="316.0025202357152" />
+      <entry key="W1" value="335.53792603448335" />
+    </decayedShown>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/usr/bin/php">
+    <include_path>
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/composer" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/psr/clock" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/league/uri-interfaces" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/league/uri" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/league/flysystem-local" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/league/config" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/staabm/side-effects-detector" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/carbonphp/carbon-doctrine-types" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/laravel/prompts" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/fruitcake/php-cors" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/laravel/pail" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/laravel/agent-detector" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/laravel/pao" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/laravel/pint" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/guzzlehttp/uri-template" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/nunomaduro/termwind" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/polyfill-uuid" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/polyfill-php86" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/laravel/roster" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/polyfill-php85" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/laravel/boost" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/polyfill-php84" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/laravel/mcp" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/laravel/breeze" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/clock" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/psr/clock" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/league/uri-interfaces" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/league/uri" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/league/flysystem-local" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/league/config" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/staabm/side-effects-detector" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/laravel/prompts" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/laravel/pail" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/laravel/agent-detector" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/laravel/pao" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/laravel/pint" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/polyfill-uuid" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/polyfill-php86" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/polyfill-php85" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/polyfill-php84" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/clock" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/carbonphp/carbon-doctrine-types" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/fruitcake/php-cors" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/guzzlehttp/uri-template" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/nunomaduro/termwind" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/composer" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/_laravel_idea" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="3ELQTwX1s1pcxoXVLl60fZYLMGC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "Main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/cainbrouwer/Projecten MBO Utrecht/Leerjaar 1/Periode 4/Theorie/BedrijfsProcessen",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ml.llm.AcpAgentsConfigurable",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner configuration_file="$PROJECT_DIR$/Breezedemo/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PS-261.25134.104" />
+        <option value="bundled-php-predefined-a98d8de5180a-6bbb74dbab74-com.jetbrains.php.sharedIndexes-PS-261.25134.104" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56976050-4aa7-4b7e-9049-b025a5a877f5" name="Changes" comment="" />
+      <created>1779955383423</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779955383423</updated>
+      <workItem from="1779955385552" duration="229000" />
+      <workItem from="1779955629536" duration="28000" />
+      <workItem from="1779955684583" duration="1937000" />
+      <workItem from="1780042955596" duration="2636000" />
+      <workItem from="1780430248217" duration="4884000" />
+      <workItem from="1780439854227" duration="261000" />
+      <workItem from="1780477765400" duration="301000" />
+      <workItem from="1780525121526" duration="2839000" />
+      <workItem from="1780560573013" duration="1675000" />
+      <workItem from="1780564959096" duration="14000" />
+      <workItem from="1780995359454" duration="2287000" />
+      <workItem from="1781219347199" duration="2688000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

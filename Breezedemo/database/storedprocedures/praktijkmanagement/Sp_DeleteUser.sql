@@ -1,0 +1,17 @@
+USE Breezedemo;
+
+DROP PROCEDURE IF EXISTS Sp_DeleteUser;
+
+DELIMITER $$
+
+CREATE PROCEDURE Sp_DeleteUser(
+    IN p_Id INTEGER
+)
+BEGIN
+
+    DELETE FROM users
+    WHERE Id = p_Id;
+
+END$$
+
+DELIMITER ;

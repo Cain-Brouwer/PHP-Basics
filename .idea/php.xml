@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LaravelPint">
+    <laravel_pint_settings>
+      <LaravelPintConfiguration tool_path="$PROJECT_DIR$/Laravel_Project/vendor/bin/pint" />
+    </laravel_pint_settings>
+  </component>
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <phpcs_by_interpreter asDefaultInterpreter="true" interpreter_id="99bdf41f-1754-4954-b40a-182e1255e983" timeout="30000" />
+    </phpcs_settings>
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/composer" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/psr/clock" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/league/uri-interfaces" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/league/uri" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/league/flysystem-local" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/league/config" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/staabm/side-effects-detector" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/carbonphp/carbon-doctrine-types" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/laravel/prompts" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/fruitcake/php-cors" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/laravel/pail" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/laravel/agent-detector" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/laravel/pao" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/laravel/pint" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/guzzlehttp/uri-template" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/nunomaduro/termwind" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/polyfill-uuid" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/polyfill-php86" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/laravel/roster" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/polyfill-php85" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/laravel/boost" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/polyfill-php84" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/laravel/mcp" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/laravel/breeze" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/clock" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/Breezedemo/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/psr/clock" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/league/uri-interfaces" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/league/uri" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/league/flysystem-local" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/league/config" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/staabm/side-effects-detector" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/laravel/prompts" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/laravel/pail" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/laravel/agent-detector" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/laravel/pao" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/laravel/pint" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/polyfill-uuid" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/polyfill-php86" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/polyfill-php85" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/polyfill-php84" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/symfony/clock" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/carbonphp/carbon-doctrine-types" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/fruitcake/php-cors" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/guzzlehttp/uri-template" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/nunomaduro/termwind" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/composer" />
+      <path value="$PROJECT_DIR$/Laravel_Project/vendor/_laravel_idea" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.3" />
+  <component name="PhpStan">
+    <PhpStan_settings>
+      <phpstan_by_interpreter asDefaultInterpreter="true" interpreter_id="99bdf41f-1754-4954-b40a-182e1255e983" timeout="60000" />
+    </PhpStan_settings>
+  </component>
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings configuration_file_path="$PROJECT_DIR$/Laravel_Project/phpunit.xml" custom_loader_path="$PROJECT_DIR$/Laravel_Project/vendor/autoload.php" use_configuration_file="true" />
+      <PhpUnitSettings configuration_file_path="$PROJECT_DIR$/Breezedemo/phpunit.xml" custom_loader_path="$PROJECT_DIR$/Breezedemo/vendor/autoload.php" use_configuration_file="true" />
+    </phpunit_settings>
+  </component>
+  <component name="Psalm">
+    <Psalm_settings>
+      <psalm_fixer_by_interpreter asDefaultInterpreter="true" interpreter_id="99bdf41f-1754-4954-b40a-182e1255e983" timeout="60000" />
+    </Psalm_settings>
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>
