@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56976050-4aa7-4b7e-9049-b025a5a877f5" name="Changes" comment="" />
+    <list default="true" id="56976050-4aa7-4b7e-9049-b025a5a877f5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,79 +22,85 @@
     <execution />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="280" />
+    <option name="cachedIndexableFilesCount" value="335" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:Cain-Brouwer/PHP-Basics.git",
-    "accountId": "844d06c1-e541-48e9-9a4c-4d6335f21312"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Cain-Brouwer&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Cain-Brouwer/PHP-Basics.git&quot;,
+    &quot;accountId&quot;: &quot;844d06c1-e541-48e9-9a4c-4d6335f21312&quot;
+  }
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.317941736394743" />
-      <entry key="MS500" value="5.509156721566931" />
-      <entry key="S2" value="11.576591364526188" />
-      <entry key="S5" value="18.953156904681776" />
-      <entry key="S10" value="25.966818432023423" />
-      <entry key="S30" value="34.59156005053292" />
-      <entry key="S60" value="37.78069268305554" />
-      <entry key="M2" value="40.73983237726964" />
-      <entry key="M5" value="49.706893557619374" />
-      <entry key="M10" value="66.20898435586717" />
-      <entry key="M15" value="80.01296322708673" />
-      <entry key="M30" value="106.54418830929231" />
-      <entry key="H1" value="137.64422994567695" />
-      <entry key="H2" value="182.70206344065502" />
-      <entry key="H4" value="234.8619892884102" />
-      <entry key="D1" value="316.00264284800977" />
-      <entry key="W1" value="335.53794483134664" />
+      <entry key="MS100" value="1.939965917725434" />
+      <entry key="MS500" value="3.8193299224060318" />
+      <entry key="S2" value="9.038064612451032" />
+      <entry key="S5" value="21.600571849464867" />
+      <entry key="S10" value="36.64720387982265" />
+      <entry key="S30" value="65.71891836064218" />
+      <entry key="S60" value="84.23049322771308" />
+      <entry key="M2" value="105.77411062347304" />
+      <entry key="M5" value="153.02978898035101" />
+      <entry key="M10" value="201.8873077626383" />
+      <entry key="M15" value="232.79031365073766" />
+      <entry key="M30" value="284.19833576051" />
+      <entry key="H1" value="332.9235306588872" />
+      <entry key="H2" value="388.78512172376537" />
+      <entry key="H4" value="447.9287588623022" />
+      <entry key="D1" value="537.6736637869142" />
+      <entry key="W1" value="559.18782544239" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="MS500" value="2.5094735318247137E-92" />
+      <entry key="S2" value="1.2586229741980796E-23" />
+      <entry key="S5" value="6.917644853986939E-10" />
+      <entry key="S10" value="2.6301416053681983E-5" />
+      <entry key="S30" value="0.029765955869599826" />
+      <entry key="S60" value="0.17764179406134264" />
+      <entry key="M2" value="0.4873251242018573" />
+      <entry key="M5" value="1.0528024440909423" />
+      <entry key="M10" value="1.429739457643993" />
+      <entry key="M15" value="1.5936149242281286" />
+      <entry key="M30" value="1.7822533559991873" />
+      <entry key="H1" value="1.8871866538486786" />
+      <entry key="H2" value="1.9425677579812064" />
+      <entry key="H4" value="1.9710222247345044" />
+      <entry key="D1" value="1.9951335740834373" />
+      <entry key="W1" value="1.9993038891466857" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.2110301386314006" />
-      <entry key="MS500" value="5.457715758836557" />
-      <entry key="S2" value="11.547475833704226" />
-      <entry key="S5" value="18.931252463080337" />
-      <entry key="S10" value="25.95025949158598" />
-      <entry key="S30" value="34.583610250579085" />
-      <entry key="S60" value="37.77620270653608" />
-      <entry key="M2" value="40.7372116716437" />
-      <entry key="M5" value="49.70527158361451" />
-      <entry key="M10" value="66.20748524757822" />
-      <entry key="M15" value="80.01147637441167" />
-      <entry key="M30" value="106.5429008201307" />
-      <entry key="H1" value="137.64325102834138" />
-      <entry key="H2" value="182.70132756405366" />
-      <entry key="H4" value="234.86147748009347" />
-      <entry key="D1" value="316.0025202357152" />
-      <entry key="W1" value="335.53792603448335" />
+      <entry key="MS100" value="1.8354183024450355" />
+      <entry key="MS500" value="3.776148730997074" />
+      <entry key="S2" value="9.012786578036732" />
+      <entry key="S5" value="21.57653057876096" />
+      <entry key="S10" value="36.62674916789859" />
+      <entry key="S30" value="65.7352155007447" />
+      <entry key="S60" value="84.39725666795913" />
+      <entry key="M2" value="106.25243839080409" />
+      <entry key="M5" value="154.07594404326667" />
+      <entry key="M10" value="203.31222687448874" />
+      <entry key="M15" value="234.37999672492103" />
+      <entry key="M30" value="285.9778976181739" />
+      <entry key="H1" value="334.80895645532894" />
+      <entry key="H2" value="390.72653483200384" />
+      <entry key="H4" value="449.8990490317182" />
+      <entry key="D1" value="539.6686352862986" />
+      <entry key="W1" value="561.1871047970793" />
     </decayedShown>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/usr/bin/php">
@@ -334,29 +342,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "Main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/cainbrouwer/Projecten MBO Utrecht/Leerjaar 1/Periode 4/Theorie/BedrijfsProcessen",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "ml.llm.AcpAgentsConfigurable",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Periode-4&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/cainbrouwer/Projecten MBO Utrecht/Leerjaar 1/Periode 4/Theorie/BedrijfsProcessen&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.AcpAgentsConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/Breezedemo/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
@@ -389,7 +397,8 @@
       <workItem from="1780560573013" duration="1675000" />
       <workItem from="1780564959096" duration="14000" />
       <workItem from="1780995359454" duration="2287000" />
-      <workItem from="1781219347199" duration="2688000" />
+      <workItem from="1781219347199" duration="3427000" />
+      <workItem from="1781251522501" duration="618000" />
     </task>
     <servers />
   </component>
